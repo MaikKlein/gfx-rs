@@ -145,7 +145,7 @@ impl Instance {
             application_version: version,
             p_engine_name: b"gfx-rs\0".as_ptr() as *const _,
             engine_version: 1,
-            api_version: vk_make_version!(1, 0, 0),
+            api_version: vk_make_version!(1, 1, 0),
         };
 
         let instance_extensions = entry
